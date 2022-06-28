@@ -1,0 +1,22 @@
+button {
+    display: ;
+    margin: 0.3em auto;
+    height: 30px;
+    width: 250px;
+    font: bold 1.2em serif;
+    color: rgb(255, 198, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.206);
+    border-radius: 5px;
+    background-color: black;
+}
+
+#teste {
+    position: relative;
+    top: 0;
+}
+
+#teste:hover {
+    top: -0.08em;
+    box-shadow: 0 4px 3px #666;
+    transition: all .1s ease-in-out
+}
